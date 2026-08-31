@@ -1,11 +1,12 @@
-#1 min = 60 segundos
-# 1 hora = 60 min
-#1 hora = 3600 segundos
+'''
+Write a program to read a duration in seconds and then display that duration on the screen in the
+format hours:minutes:seconds.
+'''
 
-duracao = int(input("digite a duração em segundos: "))
-horas = duracao/3600
-resto = duracao%3600
-minutos = resto/60
-segundos = resto%60
+duration = int(input("Enter duration in seconds: "))
+hours = duration/3600
+rest = duration%3600
+min = rest/60
+sec = rest%60
 
-print(f"{horas:.0f}:{minutos:.0f}:{segundos:.0f}")
+print(f"{hours:.0f}:{min:.0f}:{sec:.0f}")

@@ -1,14 +1,12 @@
 '''
-Write a program to read the two grades a student received in the first and second semesters of
-a year-long course. Then, display the student’s final grade (to one decimal place) for the
-year along with an explanatory message. If the student’s final grade is less than 60.00, display the
-message “FAILED.”
+Write a program that reads two integers and determines whether one number is a multiple of the other. The
+numbers can be entered in any order.
 '''
 
-grade1 = int(input("Number 1: "))
-grade2 = int(input("Number 2: "))
+integer1 = int(input("Integer 1: "))
+integer2 = int(input("Integer 2: "))
 
-if grade1 and grade2 % 2 == 0:
+if integer1 and integer2 % 2 == 0:
     print("There are multiple")
 else:
     print("Are not multiples")
