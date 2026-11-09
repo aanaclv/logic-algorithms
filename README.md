@@ -39,5 +39,6 @@ logic-algorithms/
 ├── matrices/
 ├── repetitive/
 ├── sequential/
+├── structures/
 ├── vector/
 └── README.md
