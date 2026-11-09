@@ -13,5 +13,5 @@ for i in range(n):
     value = int(input("Enter a value: "))
     vector.append(value)
 
-mean1 = statistics.mean(value)
-print(f"Mean: {mean1}")
+mean = statistics.mean(value)
+print(f"Mean: {mean}")
